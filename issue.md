@@ -159,11 +159,11 @@ Ikuti tahapan ini secara berurutan:
 ---
 
 ## 6. Acceptance Criteria Checklist
-- [ ] Skema tabel `users` memiliki kolom: `id`, `name`, `email`, `password`, dan `created_at`.
-- [ ] File migrasi berhasil dibuat melalui `bun run db:generate`.
-- [ ] Folder `src/routes/` dan `src/services/` dibuat.
-- [ ] File `src/routes/users-route.ts` dan `src/services/users-service.ts` diimplementasikan sesuai pemisahan tanggung jawab.
-- [ ] Password disimpan dalam bentuk hash bcrypt (tidak plain text).
-- [ ] Endpoint `POST /api/users` mengembalikan `{"data": "OK"}` jika berhasil.
-- [ ] Endpoint `POST /api/users` mengembalikan `{"error": "Email sudah terdaftar"}` jika email sudah digunakan.
-- [ ] `bun run typecheck` lolos tanpa error TypeScript.
+- [x] Skema tabel `users` memiliki kolom: `id`, `name`, `email`, `password`, dan `created_at`.
+- [x] File migrasi berhasil dibuat melalui `bun run db:generate`.
+- [x] Folder `src/routes/` dan `src/services/` dibuat.
+- [x] File `src/routes/users-route.ts` dan `src/services/users-service.ts` diimplementasikan sesuai pemisahan tanggung jawab.
+- [x] Password disimpan dalam bentuk hash bcrypt (tidak plain text).
+- [x] Endpoint `POST /api/users` mengembalikan `{"data": "OK"}` jika berhasil.
+- [x] Endpoint `POST /api/users` mengembalikan `{"error": "Email sudah terdaftar"}` jika email sudah digunakan.
+- [x] `bun run typecheck` lolos tanpa error TypeScript.
